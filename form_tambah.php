@@ -11,10 +11,11 @@
 
 <body>
     <h1> Silahkan isikan form data anda </h1>
-    <form method="post" action="http://localhost/php/pdo/save.php"> <input type="text" name="tanggal" id="datepicker" placeholder="Tan ggal Bayar"> <input type="text" name="nama" placeholder="nama lengkap"> <input type="text" name="alamat" placeholder="alamat"> <input type="text" name="jumlah" placeholder="Jumlah Bayar" class="money">
+    <form method="post" action="http://localhost/pwl/save.php"> <input type="text" name="tanggal" id="datepicker" placeholder="Tan ggal Bayar"> <input type="text" name="nama" placeholder="nama lengkap"> <input type="text" name="alamat" placeholder="alamat"> <input type="text" name="jumlah" placeholder="Jumlah Bayar" class="money">
         <div style="margin-top: 1em"><b>Status Pembayaran : </b></div>
         <div style="margin-top: 0; float:left"> <span><input type="radio" name="status_kredit" value="0"> <label for="Tunai">Tunai</label><br> </span> <span><input type="radio" name="status_kredit" value="1"> <label for="Kredit">Kredit</label><br> </span> </div>
-        <div style="clear:both"></div> <button type="submit" style="margin-top: 20px">Simpan</button>
+        <div style="clear:both"></div>
+        <button type="submit" style="margin-top: 20px">Simpan</button>
     </form>
 </body>
 <script>
